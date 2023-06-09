@@ -1,0 +1,97 @@
+.wrapper-table{
+  display: flex;
+  justify-content: center;
+}
+.Table-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    width: 70%;
+}
+table {
+    border-collapse: collapse;
+    table-layout:fixed ;
+    width: 100%;
+  }
+  .del-btn{
+    padding: 10px 15px;
+    background-color: rgb(241, 71, 71);
+    outline: none;
+    border: none;
+border-radius: 5px;
+    color: white;
+
+  }
+  .del-btn:hover{
+    background-color: rgb(113, 4, 4);
+  }
+  th, td {
+  
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+
+  }
+  thead tr{
+    border: 2px solid #000;
+  }
+  tr{
+    border: 1px solid #000;
+    
+  }
+  th {
+    background-color: #fff;
+    font-weight: bold;
+  }
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .download-btn {
+    display: inline-block;
+    padding: 8px 26px;
+    color: #3C84F0;
+    text-decoration: none;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  button{
+    position: relative;
+  }
+  .pdf-icon {
+    position: absolute;
+  top: -15px;
+    left: -5px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/delete.png");
+    background-size: cover;
+    background-position: center;
+  }
+  @media screen and (max-width: 426px) {
+    table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+   
+  }
+  .link-container{
+    word-break: break-all;
+    overflow-wrap: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    max-height: 7em;
+    text-align: left;
+  }
+  

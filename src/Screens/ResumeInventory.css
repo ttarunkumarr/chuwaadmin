@@ -1,0 +1,36 @@
+.main_lead{
+  padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poooo{
+
+    width: 80%;
+}
+.ma{
+    margin: 30px 0px;
+    text-align: center;
+}
+.genlink{
+    padding: 10px 15px;
+    background-color: rgb(35, 236, 169);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 20px 0px;
+}
+.genlink:hover{
+    background-color: rgb(11, 189, 130);
+}
+.genlink:disabled{
+    background-color: grey;
+}
+.c{
+    background-color: rgb(1, 27, 18); 
+}
+.link-a{
+    color: rgb(18, 18, 189);
+    font-weight: 600;
+}

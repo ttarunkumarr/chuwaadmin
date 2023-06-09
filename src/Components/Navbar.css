@@ -1,0 +1,29 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 20px;
+   align-items: center;
+   box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+nav h1{
+    font-size: 30px;
+    color: black;
+}
+nav button{
+    border: none;
+    background-color: #f32020;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+nav button:hover{
+  
+    background-color: #fe5555;
+
+}
+nav img{
+    width: 150px;
+   
+    object-fit: contain;
+    margin: 0px 0px 0px 20px;
+}

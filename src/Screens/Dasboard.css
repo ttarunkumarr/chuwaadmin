@@ -1,0 +1,45 @@
+.main_cr
+{
+    width: 100%;
+    height: 100%;
+}
+.main_head{
+    padding: 50px ;
+}
+.main_head h1{
+    font-size: 32px;
+}
+.mainCardsContainer{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 220px;
+    background: white;
+    padding: 20px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:20px;
+}
+.card:hover{
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.cardLogo img{
+  width: 98%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.cardHead h1{
+    font-size: 26px;
+    font-weight: 500;
+}
